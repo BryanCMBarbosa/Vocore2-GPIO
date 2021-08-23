@@ -31,7 +31,7 @@ while(1):
     delay(1000)
 ```
 
-Note that the only difference between these commands and the commands used in Arduino is the quotation marks for passing the words 'OUTPUT', 'INPUT', 'HIGH' and 'LOW' as parameters.
+Note that the only differences between these commands and the commands used in Arduino are the quotation marks for passing the words 'OUTPUT', 'INPUT', 'HIGH' and 'LOW' as parameters.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
