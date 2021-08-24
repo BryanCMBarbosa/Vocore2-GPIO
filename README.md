@@ -11,7 +11,7 @@ The library can be used simply by importing the Python file to your project.
 ```python
 import vocoreGPIO
 ```
-For an easier and more Arduino-like control, we recommend to importat as:
+For an easier and more Arduino-like control, we recommend to import as:
 ```python
 from vocoreGPIO import *
 ```
