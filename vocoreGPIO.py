@@ -6,7 +6,11 @@ Made by Bryan Barbosa (Github: BryanCMBarbosa) from Federal University of Juiz d
 
 import time
 
-def pinMode(num_pin, mode): #Defines pin mode as OUTPUT or INPUT
+def pinMode(num_pin, mode): #Defines pin mode as OUTPUT or 
+    config = file('/sys/class/gpio/export', 'w') #exporting the GPIO%num_pin
+    config.write(str(num_pin))
+    config.close()
+
     pin_path = "/sys/class/gpio/gpio%d/" % num_pin #directory where all the files for controlling the pin <num_pin> are stored
     file_direc = file(pin_path + "direction", "w") #Opens the file to write data. If we write "out", the pin goes to OUTPUT mode, if we write "in", the pin goes to INPUT mode.
     value = "out"
