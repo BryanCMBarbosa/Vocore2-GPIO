@@ -5,7 +5,6 @@ This is an Arduino inspired library for Vocore2 GPIO pins control.
 Made by Bryan Barbosa from [Federal University of Juiz de Fora](https://ufjf.br/) and [CREA - University of California, Berkeley](https://crea.berkeley.edu/).
 
 ## Importing
-
 The library can be used simply by importing the Python file to your project.
 
 ```python
